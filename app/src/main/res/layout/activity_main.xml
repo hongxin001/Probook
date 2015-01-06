@@ -23,8 +23,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:background="@drawable/layout_selector"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                >
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -48,6 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:orientation="vertical">
 
                 <ImageView
@@ -63,7 +67,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="音乐"
+                    android:text="商业"
                     android:layout_weight="4"
                     android:gravity="center" />
             </LinearLayout>
@@ -72,6 +76,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:orientation="vertical">
 
                 <ImageView
@@ -87,7 +93,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="音乐"
+                    android:text="摄影"
                     android:layout_weight="4"
                     android:gravity="center" />
             </LinearLayout>
@@ -96,6 +102,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:orientation="vertical">
 
                 <ImageView
@@ -111,7 +119,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="音乐"
+                    android:text="商业"
                     android:layout_weight="4"
                     android:gravity="center" />
             </LinearLayout>
@@ -126,6 +134,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:orientation="vertical">
 
                 <ImageView
@@ -151,6 +161,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:orientation="vertical">
 
                 <ImageView
@@ -166,7 +178,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="音乐"
+                    android:text="商业"
                     android:layout_weight="4"
                     android:gravity="center" />
             </LinearLayout>
@@ -175,6 +187,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:orientation="vertical">
 
                 <ImageView
@@ -190,7 +204,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="音乐"
+                    android:text="摄影"
                     android:layout_weight="4"
                     android:gravity="center" />
             </LinearLayout>
@@ -199,6 +213,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:orientation="vertical">
 
                 <ImageView
@@ -214,7 +230,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="音乐"
+                    android:text="商业"
                     android:layout_weight="4"
                     android:gravity="center" />
             </LinearLayout>
@@ -241,6 +257,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="4"
+                android:clickable="true"
+                android:background="@drawable/layout_selector"
                 android:paddingTop="8dp">
 
                 <TextView
@@ -271,6 +289,7 @@
 
             <LinearLayout
                 android:layout_weight="1"
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -278,6 +297,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/layout_selector"
                     android:orientation="vertical">
 
                     <ImageView
@@ -302,6 +323,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/layout_selector"
                     android:orientation="vertical">
 
                     <ImageView
@@ -326,6 +349,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/layout_selector"
                     android:orientation="vertical">
 
                     <ImageView
@@ -357,6 +382,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:clickable="true"
+            android:background="@drawable/layout_selector"
             android:layout_weight="1">
 
             <LinearLayout
@@ -400,6 +427,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/layout_selector"
                     android:orientation="vertical">
 
                     <ImageView
@@ -424,6 +453,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/layout_selector"
                     android:orientation="vertical">
 
                     <ImageView
@@ -448,6 +479,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/layout_selector"
                     android:orientation="vertical">
 
                     <ImageView
