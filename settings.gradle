@@ -1,1 +1,1 @@
-include ':app', ':MaterialNavigationDrawerModule'
+include ':app', ':MaterialNavigationDrawerModule', ':ptr-lib', ':android-parallax-recyclerview'

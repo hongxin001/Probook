@@ -3,14 +3,12 @@ package com.hustascii.probook;
 import android.content.Intent;
 import android.graphics.Color;
 import android.provider.ContactsContract;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.hustascii.probook.fragment.FragmentButton;
 import com.hustascii.probook.fragment.FragmentIndex;
 
 import net.youmi.android.spot.SpotDialogListener;
