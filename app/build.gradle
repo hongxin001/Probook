@@ -29,4 +29,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.0'
     compile project(':MaterialNavigationDrawerModule')
     compile files('libs/YoumiSdk_v5.00_2014-12-25.jar')
+    compile project(':ptr-lib')
+    //compile 'in.srain.cube:ultra-ptr:1.0.5@aar'
 }
