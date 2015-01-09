@@ -1,5 +1,8 @@
 package com.hustascii.probook.activity;
 
+import android.content.res.Resources;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -20,7 +23,8 @@ public class SearchActivity extends ActionBarActivity {
     private ArrayList<String> history;
     private TextView tvMore,tvClear;
     private FlowLayout KeyFlowLayout,HisFlowLayout;
-    private int[] color=new int[]{R.color.purple,R.color.orange,R.color.blue};
+    private int[] his_res=new int[]{R.drawable.tv_blue,R.drawable.tv_green,R.drawable.tv_purple};
+    private int[] key_res=new int[]{R.drawable.tv_blue,R.drawable.tv_orange,R.drawable.tv_green};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,30 +56,20 @@ public class SearchActivity extends ActionBarActivity {
     private void initData() {
         keyword=new ArrayList<String>();
         history=new ArrayList<String>();
-        keyword.add("Test");
-        keyword.add("Test3");
-        keyword.add("Te23st");
-        keyword.add("Te");
-        keyword.add("算法");
-        keyword.add("Te112st");
-        keyword.add("Test");
-        keyword.add("Tes12313213t");
-        keyword.add("T");
-        history.add("2");
-        history.add("3");
-        history.add("4");
-        history.add("5");
-        history.add("6");
-        history.add("7");
-        history.add("8");
-        keyword.add("T");
-        history.add("2");
-        history.add("3");
-        history.add("4");
-        history.add("5");
-        history.add("6");
-        history.add("7");
-        history.add("8");
+        keyword.add("理财");
+        keyword.add("易中天");
+        keyword.add("励志");
+        keyword.add("投资");
+        keyword.add("悬疑");
+        keyword.add("总裁");
+        keyword.add("小说");
+        keyword.add("道士");
+        history.add("浪潮之巅");
+        history.add("设计模式");
+        history.add("C语言");
+        history.add("乔布斯传");
+        history.add("算法");
+
     }
     private void initHisFlowLayout() {
         LayoutInflater inflater=LayoutInflater.from(this);
@@ -88,11 +82,11 @@ public class SearchActivity extends ActionBarActivity {
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(SearchActivity.this,"添加点击事件",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SearchActivity.this, "添加点击事件", Toast.LENGTH_SHORT).show();
 
                 }
             });
-            btn.setBackgroundResource(color[i%3]);
+            btn.setBackgroundResource(his_res[i%3]);
             HisFlowLayout.addView(btn);
         }
 
@@ -112,7 +106,7 @@ public class SearchActivity extends ActionBarActivity {
 
                 }
             });
-            btn.setBackgroundResource(color[i%3]);
+            btn.setBackgroundResource(key_res[i%3]);
             KeyFlowLayout.addView(btn);
         }
 

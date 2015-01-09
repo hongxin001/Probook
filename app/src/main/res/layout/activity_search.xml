@@ -4,27 +4,31 @@
     android:orientation="vertical"
     tools:context="com.hustascii.probook.activity.SearchActivity">
     <LinearLayout
-        android:padding="5dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#F7F7F8"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <LinearLayout
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="10dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:textSize="15sp"
-                android:hint="   搜索排行"/>
+                android:hint="搜索排行"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_more"
                 android:gravity="center"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:textColor="@android:color/holo_green_light"
                 android:textSize="15sp"
                 android:text="更多"/>
@@ -44,7 +48,7 @@
             <com.hustascii.probook.view.FlowLayout
                 android:layout_marginTop="5dp"
                 android:id="@+id/keyword"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="110dp">
 
             </com.hustascii.probook.view.FlowLayout>
@@ -58,15 +62,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="7"
+                android:layout_weight="10"
                 android:textSize="15sp"
-                android:hint="   搜索记录"/>
+                android:hint="搜索记录"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_clear"
                 android:gravity="center"
-                android:layout_weight="3"
+                android:layout_weight="2"
                 android:textColor="@android:color/holo_green_light"
                 android:textSize="15sp"
                 android:text="删除"/>
@@ -83,9 +87,8 @@
             android:layout_weight="5"
             android:layout_height="wrap_content">
             <com.hustascii.probook.view.FlowLayout
-                android:background="#e0e7ed"
                 android:layout_marginTop="5dp"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="340dp"
                 android:id="@+id/his">
 
