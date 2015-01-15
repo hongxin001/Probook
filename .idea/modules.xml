@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialNavigationDrawerModule/MaterialNavigationDrawerModule.iml" filepath="$PROJECT_DIR$/MaterialNavigationDrawerModule/MaterialNavigationDrawerModule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Probook.iml" filepath="$PROJECT_DIR$/Probook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-parallax-recyclerview/android-parallax-recyclerview.iml" filepath="$PROJECT_DIR$/android-parallax-recyclerview/android-parallax-recyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptr-lib/ptr-lib.iml" filepath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" />
     </modules>
   </component>
 </project>
